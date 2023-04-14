@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Movie from "../../Assets/Projects/Movie.png";
+// import Movie from "../../Assets/Projects/Movie.png";
 import Weather from "../../Assets/Projects/weather.png";
 import Meal from "../../Assets/Projects/Meal.png";
 import Quiz from "../../Assets/Projects/quiz.png";
 import Ecommerce from "../../Assets/Projects/e-commerce.png";
 import Blog from "../../Assets/Projects/blog.webp";
+import Url from "../../Assets/Projects/url.webp";
+
 
 
 
@@ -50,12 +52,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Movie}
+              imgPath={Url}
               isBlog={false}
-              title="Movie-App"
-              description="CRUD React movie app"
-              ghLink="https://github.com/PythonGenzo/Movies-App"
-              demoLink="https://effervescent-basbousa-1d99a0.netlify.app/"              
+              title="URL Shortner"
+              description="An URL shortener is a website that reduces the length of your URL (Uniform Resource Locator). The idea is to minimize the web page address into something that’s easier to remember and track. "
+              ghLink="https://github.com/PythonGenzo/URL-Shortner-frontend"
+              demoLink="https://url-shortner-frontend-nine.vercel.app/"              
             />
           </Col>
 
