@@ -43,8 +43,7 @@ function Projects() {
               imgPath={Blog}
               isBlog={false}
               title="Blog App"
-              description="What is a blog app?
-              A blog application is a web or mobile application with two sets of users: bloggers and readers. Bloggers use the app to create posts, edit posts, and submit posts for review by their editors."
+              description="A blog application is a web or mobile application with two sets of users: bloggers and readers. Bloggers use the app to create posts, edit posts, and submit posts for review by their editors."
               ghLink="https://github.com/PythonGenzo/mern-blog-app"
               demoLink="http://mern-blog-app-jet.vercel.app/"
             />
